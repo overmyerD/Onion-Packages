@@ -25,7 +25,7 @@ define Package/trumeter-utility
   SECTION:=rator
   CATEGORY:=Raptor
   SUBMENU:=Utilities
-  TITLE:=A simple utility that reads the values of a Trumeter.
+  TITLE:=A simple utility that reads the values of a Trumeter!
   DEPENDS:=+libubox +libubus
 endef
 
