@@ -32,9 +32,9 @@ endef
 TARGET_CFLAGS += -I$(STAGING_DIR)/usr/include
 
 
-define Package/ogps/install
+define Package/trumeter-utility/install
 	$(INSTALL_DIR) $(1)/usr/sbin
 	$(INSTALL_BIN) $(PKG_BUILD_DIR)/trumeter-utility $(1)/usr/sbin/
 endef
 
-$(eval $(call BuildPackage,ogps))
+$(eval $(call BuildPackage,trumeter-utility))
