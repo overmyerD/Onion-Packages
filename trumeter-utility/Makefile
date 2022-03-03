@@ -26,7 +26,7 @@ define Package/trumeter-utility
   CATEGORY:=Raptor
   SUBMENU:=Utilities
   TITLE:=A simple utility that reads the values of a Trumeter!
-  DEPENDS:=+libubox +libubus
+  DEPENDS:+=libstdcpp
 endef
 
 TARGET_CFLAGS += -I$(STAGING_DIR)/usr/include
